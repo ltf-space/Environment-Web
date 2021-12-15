@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 15rpx;
+}
+.wrapper .header-wrapper {
+  height: 200rpx;
+  background-color: #3d7ef9;
+  border-radius: 20rpx;
+  color: #fff;
+  box-shadow: #d6d6d6 0rpx 0rpx 5rpx;
+  padding: 15rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+.wrapper .header-wrapper .header-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+.wrapper .header-wrapper .header-text {
+  font-size: 24rpx;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .header-wrapper .weather-advice {
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.wrapper .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper .content-wrapper .common-content {
+  width: 48%;
+  height: 180rpx;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 0rpx 10rpx #d6d6d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wrapper .content-wrapper .common-content .common-img {
+  width: 80rpx;
+}

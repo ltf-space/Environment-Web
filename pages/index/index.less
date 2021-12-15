@@ -1,0 +1,45 @@
+.wrapper{
+  padding: 15rpx;
+  .header-wrapper {
+    height: 200rpx;
+    background-color: #3d7ef9; // 头部背景颜色
+    border-radius: 20rpx;
+    color: #fff;
+    box-shadow: #d6d6d6 0rpx 0rpx 5rpx;
+    padding: 15rpx 30rpx;
+    margin-bottom: 20rpx;
+    .header-title {
+      display: flex; // 布局
+      justify-content: space-between; // 让两个span空开
+      font-size: 26rpx; // 字体大小
+    }
+    .header-text {
+      font-size: 24rpx; // 字体大小
+      font-weight: 400; // 字体粗细
+      display: flex; // 布局
+      justify-content: space-between; // 让两个span空开
+    }
+    .weather-advice {
+      margin-top: 20rpx; // 上边距
+      font-size: 28rpx; // 字体大小
+    }
+  }
+  .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    // 换行
+    flex-wrap: wrap;
+    .common-content{
+      width: 48%;
+      height: 180rpx;
+      border-radius: 20rpx;
+      box-shadow: 0rpx 0rpx 10rpx #d6d6d6;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .common-img{
+        width: 80rpx;
+      }
+    }
+  }
+}

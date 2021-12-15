@@ -1,0 +1,39 @@
+<view class="root-wrapper">
+  <view class="root">
+    <view class="header-wrapper">
+      <image
+        style="width: 100%; z-index: -999; position: absolute"
+        model="widthFix"
+        src="../../static/images/pot2.png"
+      />
+    </view>
+
+<!-- 用户头像信息 -->
+    <view class="user-info">
+      <view class="avatar-wrapper">
+        <open-data
+          type="userAvatarUrl"
+          default-avatar="../../static/images/avatar.png"
+        ></open-data>
+      </view>
+      <view class="username-wrapper">
+        <open-data default-text="读取中" type="userNickName"></open-data>
+      </view>
+    </view>
+
+    <view class="body-wrapper">
+      <view class="list">
+        <view>微信版本号</view>
+        <view>8.0.15</view>
+      </view>
+      <view class="list">
+        <view>操作系统</view>
+        <view>Android 12</view>
+      </view>
+      <view class="list">
+        <view>开发者:魏亮</view>
+        <view>学号:181360208</view>
+      </view>
+    </view>
+  </view>
+</view>

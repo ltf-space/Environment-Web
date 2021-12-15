@@ -1,0 +1,54 @@
+<view class="wrapper">
+  <!-- 头部天气显示区 -->
+  <view class="header-wrapper">
+    <view class="header-title">
+      <text>空气质量-{{ airText }}</text>
+      <text>{{ city }}市-{{ area }}区</text>
+    </view>
+    <view class="header-text">
+      <text>空气指数：{{ airValue }}</text>
+      <text>{{ weather }}</text>
+    </view>
+    <view class="weather-advice">
+      {{ weatherAdvice }}
+    </view>
+  </view>
+
+  <view class="content-wrapper">
+    <!-- 温度 -->
+    <view class="wendu-content common-content">
+      <image class="wendu-img common-img" src="../../static/images/wendu.png" mode="widthFix"></image>
+      <view class="" hover-class="none">
+        <view class="">温度</view>
+        <view class="">0</view>
+      </view>
+    </view>
+    <!-- 湿度 -->
+    <view class="shidu-content common-content">
+      <image class="shidu-img common-img" src="../../static/images/shidu.png" mode="widthFix"></image>
+      <view class="" hover-class="none">
+        <view class="">湿度</view>
+        <view class="">0</view>
+      </view>
+    </view>
+    <!-- 光照度 -->
+    <view class="guangZhaoDu-content common-content">
+      <image class="guangzhaodu-img common-img" src="../../static/images/guangzhaodu.png" mode="widthFix"></image>
+      <view class="" hover-class="none">
+        <view class="">光照度</view>
+        <view class="">0</view>
+      </view>
+    </view>
+    <!-- 土壤湿度 -->
+    <view class="tuRangShiDu-content common-content">
+      <image class="turangshidudu-img common-img" src="../../static/images/soil.png" mode="widthFix"></image>
+      <view class="" hover-class="none">
+        <view class="">土壤湿度</view>
+        <view class="">0</view>
+      </view>
+    </view>
+
+    <button class="default" type="primary" plain="true">跳转一</button>
+    <button class="default" type="primary" plain="true">跳转二</button>
+  </view>
+</view>

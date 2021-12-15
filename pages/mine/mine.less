@@ -1,0 +1,46 @@
+.root-wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  .root{
+    position: relative;
+    .header-wrapper {
+      height: 300rpx;
+      background-blend-mode: multiply;
+      color: #fff;
+    }
+    .user-info {
+      position: absolute;
+      left: 4rpx;
+      top: 360rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .avatar-wrapper {
+        height: 80rpx;
+        width: 80rpx;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 6rpx;
+      }
+      .username-wrapper {
+        font-size: 26rpx;
+        color: rgb(0, 0, 0);
+      }
+    }
+    .body-wrapper {
+      margin-top: 200rpx;
+      .list {
+        padding: 2rpx 10rpx;
+        border-radius: 25rpx;
+        background-color: #ece2e2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(1, 1, 1);
+        font-size: 40rpx;
+        font-weight: 300rpx;
+        margin-bottom: 10rpx;
+      }
+    }
+  }
+}
